@@ -1,0 +1,45 @@
+# Editor stuff
+.swp
+cscope.out
+cscope.out.files
+cscope.out.temp
+tags
+tags.lock
+tags.temp
+.vscode
+
+
+# Zepyhr / nRF5 SDK stuff
+compile_commands.json
+.cache
+**/build/*
+build/*
+build*
+!.github/workflows/build.yaml
+generated
+
+# Python stuff
+__pycache__
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+
+#envrc
+.envrc

@@ -1,0 +1,41 @@
+name: "Publish Release"
+
+on:
+  workflow_call:
+    inputs:
+      release_version:
+        required: true
+        type: string
+
+jobs:
+  publish-new-release:
+    runs-on: ubuntu-22.04
+    # runs-on: self-hosted
+
+    steps:
+      - name: Start
+        run: |
+          version_cut=$(echo "${{ inputs.release_version }}" | cut -c 2-)
+          echo "release_version=${{ inputs.release_version }}" >> $GITHUB_ENV
+          echo "release_version_cut=$version_cut" >> $GITHUB_ENV
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.release_version }}
+
+      - name: Get latest Changelog entry
+        id: changelog-reader
+        uses: mindsers/changelog-reader-action@v2.2.2
+        with:
+          version: ${{ env.release_version_cut }}
+
+      - name: Publish Release
+        if: ${{ !env.ACT }}
+        uses: softprops/action-gh-release@v0.1.15
+        with:
+          tag_name: ${{ env.release_version }}
+          body: |
+            # Release notes
+
+            ${{ steps.changelog-reader.outputs.changes }}

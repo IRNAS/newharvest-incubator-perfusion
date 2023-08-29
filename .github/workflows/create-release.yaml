@@ -1,0 +1,65 @@
+name: "Create Release"
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description:
+          "The version you want to release [v##.##.##]? (did you update
+          changelog?)"
+        required: true
+env:
+  GIT_TERMINAL_PROMPT: 0
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-22.04
+    # runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0 # Fetch history for all branches and tags
+
+      - name: Validate version input
+        id: validate-input
+        run: |
+          # Check if input version is in correct format
+          if [[ ! ${{ inputs.version }} =~ v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::Invalid input version: wrong format!"
+            exit 1
+          fi
+          # Check if input version already exists as git tag
+          if [[ ! -z $(git tag | grep ${{ inputs.version }}) ]]; then
+            echo "::error::Invalid input version: it already exists!"
+            exit 1
+          fi
+          version_cut=$(echo "${{ inputs.version }}" | cut -c 2-)
+          echo "version_cut=$version_cut" >> $GITHUB_ENV
+
+      - name: Update Changelog
+        uses: irnas/keep-a-changelog-new-release@v1.3.1
+        with:
+          tag: ${{ inputs.version }}
+
+      # In order to make a commit, we need to initialize a user.
+      - name: Create Robot user
+        run: |
+          git config user.name "github-bot :robot:"
+          git config user.email noreply@github.com
+
+      - name: Commit Changelog, create tag and push
+        run: |
+          git add CHANGELOG.md
+          git commit -m "Update CHANGELOG.md for Release ${{ inputs.version }}"
+          git tag ${{ inputs.version }}
+          git push
+          git push origin ${{ inputs.version }}
+
+  call-publish-release:
+    needs: update-changelog
+    uses: ./.github/workflows/publish-release.yaml
+    with:
+      release_version: ${{ inputs.version }}
