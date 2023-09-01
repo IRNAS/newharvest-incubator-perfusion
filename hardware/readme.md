@@ -1,6 +1,8 @@
 ## Overview
 Here the mechanical part of the hardware components and their assembly are described. The mechanical unit of the in-incubator perfusion unit contains a peristaltic pump head, driven by a stepper motor, both mounted on a sample tray where up to 3 multi-well plates and medium reservoirs can be held in place. The tray also has attachable/detachable feet, that can be used to evelate the tray and fit a microscopy unit (e.g. Cytosmart Lux) under one of the samples.
 
+![assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/assembly-v1.jpg)
+
 ## Bill of materials
 
 | Aluminum         | Quantity | Description                     |
