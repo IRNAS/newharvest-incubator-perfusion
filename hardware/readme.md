@@ -3,8 +3,5 @@ Here the mechanical part of the hardware components and their assembly are descr
 
 ![assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/assembly-v1.jpg)
 
-## Bill of materials and assembly instructions
-The [assembly instructions](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/mechanics-assembly-instructions.pdf) for the mechanical part of the pump system are summarized in the complementary file.
-
-## Alternative design
-The described assembly uses a Nema 34 stepper motor to drive the pumping motion, however, we also developed and tested an alternative design that uses a spare DC motor used in Masterflex peristaltic pumps, described in the complementary [zip file](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/NewHarvest_perfusion-system_alt.zip).
+## Assembly and use
+The [assembly instructions](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/mechanics-assembly-instructions.pdf) for the mechanical part of the pump system are summarized in the complementary file. **Alternative design** - The described assembly uses a Nema 34 stepper motor to drive the pumping motion, however, we also developed and tested an alternative design that uses a spare DC motor used in Masterflex peristaltic pumps, described in the complementary [zip file](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/hardware/NewHarvest_perfusion-system_alt.zip).
