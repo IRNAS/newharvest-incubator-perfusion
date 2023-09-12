@@ -12,6 +12,7 @@ Design variation 1 can be used as an intermediary unit that fits between the wel
 Design variation 2 is not compatible with a multi well-plate cover. Instead the manifold can be covered with an [adhesive, breathable membrane](https://www.sigmaaldrich.com/SI/en/product/sigma/z380059) to protect the samples while allowing sufficient gas exchange. Similarly to manifold variation 1, connecting the wells to perfusion can be done using threaded fittings, depending on the modification of the channels.
 
 ### Single-well chips
-
+![image](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/liquid-handling/P6-single-well-chip/P6-well-chip-single.png)
+In addition to the 6-well flow manifold that allows simultaneous perfusion of up to 6 wells within a P6 well plate, single-well chips were designed that are compatible with P6 well plates and can be used for double perfusion experiments within a single well, but could be adapted to individual petri-dishes. The [design files](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/liquid-handling/P6-single-well-chip) are available in the complementary folder and are suitable for manufacturing using DLP resin printing. The design was adapted to allow direct connection with laboratory tubing with an inner diameter of 1.5 - 2mm.
 
 
