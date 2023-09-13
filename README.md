@@ -4,9 +4,35 @@ This repository contains documentation for manufacturing, assembly and use of th
 ![prototype v1](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/prototype-v1.jpg)
 
 ## Linked documents
+- [Calibration](https://github.com/IRNAS/newharvest-incubator-perfusion/edit/main/README.md#Calibration)
 - [Operation instructions]()
 - [System functionality and specifications]()
 - [Testing and performance]()
+
+## Calibration
+**Overview:**
+The calibration function allows the user to adjust the perfusion rates of the pumped liquid to be adjusted in ml/min ranges with variable tubing and (compatible) peristaltic pump heads. As the perfusion rate depends on the rotation per minute (RPM), the inner and outer diameters of the tubing, precise flow control can be difficult to estimate, especially if the precise measurements of the tubing aren't known. The calibration function of the new harverst in-incubator perfusion mitigates this, by allowing RPM adjustment to fit the tubing and pump heads.
+
+**Components:**
+- New Harvest in-incubator perfusion prototype (assembled)
+- 1 peristaltic pump cartridge
+- 1 target tubing to be used for the experiments (e.g. silicone/BPT/tygon), compatible with the pump head
+- 2 beakers (or similar containers)
+- Calibration liquid (e.g. water) to fill half a beaker (the precision of the calibration method increases with the volume difference between slow and fast perfusion rates)
+
+**Method:**
+1. Install the tubing and cartridge into the pump head
+2. Insert both open ends into a liquid filled beaker
+3. Start single flow pumping to completely fill the tubing (GUI - single flow speed tab)
+4. Weigh/tare the empty beaker
+5. Place one end of the tubing into the empty beaker
+6. Go to Calibration tab (GUI) and set low/high RPM settings and perfusion time
+	- NOTE: appropriate RPM values will strongly depend on the microstepping settings (GUI - Config tab) which should be adjusted to according to the preferred range of the perfusion rate. At 1/256 microstepping, a good calibration range for perfusion rates lies between 200 RPM (low) and 5000 RPM (high)
+7. Start the calibration procedure by following the on-screen instructions and measuring the accumulated amount of pumped liquid as depicted in the figure below.
+8. Save the settings file to use for perfusion experiments.
+
+![calibration](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/calibration.png)
+
 
 ## Licensing
 The New Harvest in-incubator perfusion system is licensed under open-source licenses:
