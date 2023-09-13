@@ -4,12 +4,12 @@ This repository contains documentation for manufacturing, assembly and use of th
 ![prototype v1](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/prototype-v1.jpg)
 
 ## Linked documents
-- [Calibration](https://github.com/IRNAS/newharvest-incubator-perfusion/edit/main/README.md#Calibration)
+- [Calibration](#Calibration)
 - [Operation instructions]()
 - [System functionality and specifications]()
 - [Testing and performance]()
 
-## Calibration
+## Calibration <a id="Calibration"></a>
 **Overview:**
 The calibration function allows the user to adjust the perfusion rates of the pumped liquid to be adjusted in ml/min ranges with variable tubing and (compatible) peristaltic pump heads. As the perfusion rate depends on the rotation per minute (RPM), the inner and outer diameters of the tubing, precise flow control can be difficult to estimate, especially if the precise measurements of the tubing aren't known. The calibration function of the new harverst in-incubator perfusion mitigates this, by allowing RPM adjustment to fit the tubing and pump heads.
 
