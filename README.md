@@ -57,7 +57,7 @@ The mechanical part of the in-incubator perfusion system is composed of an alumi
 | Tubing:             | with 2-4mm outer diameter suitable for cell culture applications (e.g., platinum cured silicone, tygon, Pharmed BPT(R))                                                |
 | Tubing connections: | Luer-lock (polypropylene)                                                                                                                                              |
 | Dead volume:        | depending on assembly                                                                                                                                                  |
-| Monitoring/control: | Graphical user interface                                                                                                                                               |
+| Monitoring/control: | Graphical user interface (via touch screen or wifi)                                                                                                                    |
 | Control parameters: | flow rate (continuous or dynamic), direction                                                                                                                           |
 
 ### Electronics
