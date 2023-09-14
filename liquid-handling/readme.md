@@ -19,6 +19,7 @@ In addition to the 6-well flow manifold that allows simultaneous perfusion of up
 
 ### Single-well chips - graded channels
 ![image](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/liquid-handling/perfusion-chamber/v1/explode-diagram.png)
+
 The intention behind this design was to establish a gradient of shear forces within the perfusion channels of the scaffold, while maintaining even flow-rates throughout. This is achieved by varying the number and diameter of the channels on respective levels of the scaffold in such a way that the combined volume per level remains the same,however, the channel surface is gradually increased.
 
 ## Hydro-cyclone filter
