@@ -8,17 +8,20 @@ This repository contains documentation for manufacturing, assembly and use of th
 	- [Initial set-up](#set-up)
 	- [Calibration](#Calibration)
 - [System specifications](#Specs)
+- [Connected documents](#links)
 - [Licensing](#license)
 
 ## General operation instructions: <a id="manual"></a>
 Detailed instructions on manufacturing, assembly and operation of the individual levels of this system, namely [Mechanics](), [Electronics]() and [Software]() are available in their respective sub-repositories.
 
 ### Initial set-up <a id="set-up"></a>
-![prototype v1](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/perfusion-prototype-set-up.png)
+After assembling the [mechanics](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/hardware), [electronics](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/electronics) and installing the [software](https://github.com/IRNAS/new-harvest-rpi-drive-system/tree/dev), as described in the complementary repositories, the system can be installed into a cell culture incubator, by placing the controller box outside and the mechanical assembly inside the incubator and connecting them via a 4-pin charger cable. Depending on the incubator model, this could be achieved through a port in the back wall of the incubator as indicated in the figure below.
 
-postavit stvari v inkubatorju...
+![image](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/incubator-installation.png)
 
-povezava z wifijem...
+After the system is assembled and charged, it is ready to use and full functionality can be accessed via GUI on the integrated touch screen display as described below and in the [GUI user guide](https://github.com/IRNAS/new-harvest-rpi-drive-system/blob/dev/docs/user_guide.md). Additionally, system data (e.g. drive activity, flow rate and direction) are logged automatically if a USB flash drive is inserted into the USB hub on the back of the control box. Furthermore, the GUI can be accessed remotely via wifi, which can be set-up in the config tab of the GUI, as shown in the figure below.
+
+![image](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/config.jpg)
 
 ### Calibration: <a id="Calibration"></a>
 **Overview:**
@@ -73,6 +76,13 @@ The perfusion system control box that is placed outside the incubator provides p
 | Housing:         | [1458G5](https://www.digikey.si/en/products/detail/hammond-manufacturing/1458G5/248075) metal casing, customized PMMA sheets       |
 | Connectivity:    | WiFi, USB (data logging), IEC socket (power supply), 4-pin socket (motor control)                                                  |
 
+## Connected documents <a id="links"></a>
+Additional documentation on manufacturing, assembly and use of the in-incubator perfusion system can be found in connected repositories, which will hopefully provide additional insight and help with reproducibility and use. Links to that documentation are listed below:
+- [Mechanics manufacturing and assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/hardware)
+- [Electronics assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/electronics)
+- [Software set-up and GUI](https://github.com/IRNAS/new-harvest-rpi-drive-system/tree/dev)
+- [Tools for liquid handling](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/liquid-handling)
+- [Testing and additional insights]()
 
 ## Licensing <a id="license"></a>
 The New Harvest in-incubator perfusion system is licensed under open-source licenses:
