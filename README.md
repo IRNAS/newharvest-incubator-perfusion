@@ -80,7 +80,7 @@ The perfusion system control box that is placed outside the incubator provides p
 Additional documentation on manufacturing, assembly and use of the in-incubator perfusion system can be found in connected repositories, which will hopefully provide additional insight and help with reproducibility and use. Links to that documentation are listed below:
 - [Mechanics manufacturing and assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/hardware)
 - [Electronics assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/electronics)
-- [Software set-up and GUI](https://github.com/IRNAS/new-harvest-rpi-drive-system/tree/dev)
+- [Software set-up and GUI](https://github.com/IRNAS/new-harvest-rpi-drive-system/tree/master)
 - [Tools for liquid handling](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/liquid-handling)
 - [Testing and additional insights](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/system-testing.md)
 
