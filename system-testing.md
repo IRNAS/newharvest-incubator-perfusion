@@ -63,11 +63,11 @@ Cell culture of HUVEC followed the protocol as described in the above referenced
 
 The results of the Alamar-blue assay are summarized in the figure below. All tested materials showed high metabolic activity of cells, with the highest values measured on the 'Colormix basic' resin, followed by 'Ortho clear'.
 
-![metabolic-activity](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/tubing-abrasion.png)
+![metabolic-activity](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/resin-biocompatibility.png)
 
 **Live/Dead assay:**
 The samples from point 8. were washed with fresh medium and covered with 0.5ml of ADMEM containing 5μg/ml Calcein (indicator of live cells - fluorescence in the green spectrum) and 20μg/ml Propidium Iodide (indicator of dead cells - fluorescence in the red spectrum) and incubated for 15min in darkness before fluorescence microcopy. Screen shots of 4 micrographs comparing the control sample with 3 resins are shown in the figure below. All samples show viable cells with almost none visible dead cells. Furthermore the optical properties of the resins can be estimated from the clarity of the images.
 
-![live-dead](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/tubing-abrasion.png)
+![live-dead](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/resin-LD.png)
 
 The results suggest good biocompatibility of the tested resins on HUVEC cells, however, it should be noted that these results are not representative for other cell type or set-up configurations. Thus, this type of analysis should be repeated for every experiment specifically.
