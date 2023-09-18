@@ -1,0 +1,3 @@
+[submodule "software/new-harvest-rpi-drive-system"]
+	path = software/new-harvest-rpi-drive-system
+	url = https://github.com/IRNAS/new-harvest-rpi-drive-system.git
