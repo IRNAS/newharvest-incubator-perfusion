@@ -9,7 +9,7 @@ This repository contains documentation for manufacturing, assembly and use of th
 	- [Calibration](#Calibration)
 - [System specifications](#Specs)
 - [Connected documents](#links)
-- [Licensing](#license)
+- [Licensing and cloning](#license)
 
 ## General operation instructions: <a id="manual"></a>
 Detailed instructions on manufacturing, assembly and operation of the individual levels of this system, namely [Mechanics](), [Electronics]() and [Software]() are available in their respective sub-repositories.
@@ -82,7 +82,7 @@ Additional documentation on manufacturing, assembly and use of the in-incubator 
 - [Electronics assembly](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/electronics)
 - [Software set-up and GUI](https://github.com/IRNAS/new-harvest-rpi-drive-system/tree/dev)
 - [Tools for liquid handling](https://github.com/IRNAS/newharvest-incubator-perfusion/tree/main/liquid-handling)
-- [Testing and additional insights]()
+- [Testing and additional insights](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/system-testing.md)
 
 ## Licensing <a id="license"></a>
 The New Harvest in-incubator perfusion system is licensed under open-source licenses:
@@ -92,7 +92,9 @@ Open data and additional documentation are licensed under [Creative Commons Attr
 
 Open-source licensing means the hardware, firmware, software and documentation may be used without paying a royalty, and knowing one will be able to use their version forever. One is also free to make changes, but if one shares these changes, they have to do so under the same conditions they are using themselves.
 
-
 IRNAS template for a GitHub repository. It comes with a
 [basic group](https://github.com/IRNAS/irnas-workflows-software/tree/dev/workflow-templates/basic)
 of CI workflows for release automation.
+
+### Cloning
+This repository contains submodules. To include them when cloning the repository the following command should be used: `git clone --recurse-submodules https://github.com/IRNAS/newharvest-incubator-perfusion.git`
