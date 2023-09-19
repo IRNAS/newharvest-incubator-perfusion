@@ -3,7 +3,7 @@ This repository contains documentation for manufacturing, assembly and use of th
 
 ![prototype v1](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/prototype-assembly.png)
 
-## Linked documents
+## Table of contents
 - [Generals operation instructions](#manual)
 	- [Initial set-up](#set-up)
 	- [Calibration](#Calibration)
