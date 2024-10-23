@@ -1,6 +1,16 @@
 # New Harvest in-incubator perfusion system
 This repository contains documentation for manufacturing, assembly and use of the New Harvest in-incubator perfusion system, developed in collaboration between [IRNAS Ltd.](https://www.irnas.eu/), [New Harvest](https://new-harvest.org/) and the [Institute of Biomedical Sciences](https://ibv.mf.um.si/) as part of a joint research project. The aim of the described system is providing controlled perfusion capabilities into established cell-biology workflows and equipment. Specifically, it was developed for use inside cell culture incubators commonly used in life sciences and related fields.
 
+### Authors
+Jernej Vajda<sup>1</sup>, Nejc Klemenčič<sup>2</sup>, Marko Sagadin<sup>2</sup>, Mihael Miško<sup>2</sup>, Luka Mustafa<sup>2</sup>, Jeremiah Johnston<sup>3</sup>, Breanna Duffy<sup>3</sup>, Uroš Maver<sup>1,4</sup>, Boštjan Vihar<sup>1,2</sup>
+
+1. Institute of Biomedical Sciences, Faculty of Medicine, University of Maribor, Taborska ulica 8, 2000 Maribor, Slovenia
+2. IRNAS Ltd., Limbuška cesta 76b, 2000 Maribor, Slovenia
+3. New Harvest foundation, 1401 21st Street, Suite 4556, Sacramento, CA 95811-5226, USA
+4. Department of Pharmacology, Faculty of Medicine, University of Maribor, Taborska Ulica 8, 2000 Maribor, Slovenia
+
+* Correspondence to: bostjan.vihar@um.si
+
 ![prototype v1](https://github.com/IRNAS/newharvest-incubator-perfusion/blob/main/graphics/prototype-assembly.png)
 
 ## Table of contents
