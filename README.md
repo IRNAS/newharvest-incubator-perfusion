@@ -109,4 +109,4 @@ of CI workflows for release automation.
 ### Cloning
 This repository contains submodules. To include them when cloning the repository the following command should be used: `git clone --recurse-submodules https://github.com/IRNAS/newharvest-incubator-perfusion.git`
 
-[![DOI](https://zenodo.org/badge/684439960.svg)](https://doi.org/10.5281/zenodo.13848055)
+[![DOI](https://zenodo.org/badge/684439960.svg)](https://doi.org/10.5281/zenodo.13848054)
